@@ -8,7 +8,47 @@ const planos = [
       "Visualização interativa",
       "Média salarial por capital"
     ]
-  }
+  },
+   {
+    tipo: "Media Salarial",
+    id: "mapa1",
+    titulo: "Mapa Media Salarial",
+    ref: "mapas/mapa_capitais.html",
+    detalhes: [
+      "Visualização interativa",
+      "Média salarial por capital"
+    ]
+  },
+   {
+    tipo: "Media Salarial",
+    id: "mapa1",
+    titulo: "Mapa Media Salarial",
+    ref: "mapas/mapa_capitais.html",
+    detalhes: [
+      "Visualização interativa",
+      "Média salarial por capital"
+    ]
+  },
+   {
+    tipo: "Media Salarial",
+    id: "mapa1",
+    titulo: "Mapa Media Salarial",
+    ref: "mapas/mapa_capitais.html",
+    detalhes: [
+      "Visualização interativa",
+      "Média salarial por capital"
+    ]
+  },
+   {
+    tipo: "Media Salarial",
+    id: "mapa1",
+    titulo: "Mapa Media Salarial",
+    ref: "mapas/mapa_capitais.html",
+    detalhes: [
+      "Visualização interativa",
+      "Média salarial por capital"
+    ]
+  },
 ];
 
 const planosContainer = document.getElementById("planos");
