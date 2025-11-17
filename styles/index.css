@@ -17,7 +17,7 @@ body {
 /* Header */
 .header {
   text-align: center;
-  background: #3674fa;
+  background: #8B4513;
   color: white;
   padding: 20px 10px;
   border-radius: 0 0 20px 20px;
@@ -137,41 +137,80 @@ button {
   color: white;
 }
 
-/* Planos */
+/* styles/index.css */
+
+/* 1. Container que segura os cards */
 .planos {
+  display: flex;             /* Ativa o layout flexível */
+  flex-wrap: wrap;           /* Permite que os cards quebrem linha se não couberem */
+  justify-content: center;   /* CENTRALIZA os cards na tela */
+  gap: 24px;                 /* ESPAÇAMENTO entre os cards (substitui margens manuais) */
+  padding: 20px;
+  max-width: 1200px;         /* Limita a largura total para não esticar demais em telas gigantes */
+  margin: 0 auto;            /* Centraliza o próprio container na página */
+}
+
+/* 2. Estilo individual do Card */
+.plano {
+  /* TAMANHO REDUZIDO */
+  width: 260px;             /* Largura mais compacta */
+  height: 320px;            /* Altura mais compacta */
+  
+  /* Configuração do Background (Imagem) */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* Visual do Card */
+  border-radius: 16px;       /* Bordas arredondadas modernas */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Sombra suave */
+  
+  /* Alinhamento do conteúdo interno */
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin: 20px;
-}
-
-.plano {
-  background: white;
-  border-radius: 15px;
-  padding: 15px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.plano h3 {
-  color: #0f0f0f;
-  margin-bottom: 8px;
-}
-
-.plano ul {
-  font-size: 13px;
-  margin-left: 15px;
-  color: #666;
-}
-
-.plano .preco {
-  font-size: 22px;
-  color: #131213;
-  margin: 10px 0;
-}
-
-.plano button {
-  background:#3674fa;
+  justify-content: flex-end; /* Empurra o texto/botão para o fundo do card */
+  padding: 20px;
   color: white;
+  
+  /* Transição suave */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efeito ao passar o mouse */
+.plano:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+/* Título do Card */
+.plano h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.3rem;         /* Fonte um pouco menor para caber no card menor */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+/* Lista de detalhes */
+.plano ul {
+  padding-left: 20px;
+  margin: 0 0 15px 0;
+  font-size: 0.9rem;        /* Texto menor */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+/* Botão */
+.plano button {
+  background-color: #8B4513;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
   width: 100%;
-  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.plano button:hover {
+  background-color: #f0f0f0;
+  color: #8B4513;
 }
