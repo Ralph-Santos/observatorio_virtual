@@ -17,7 +17,7 @@ const planos = [
     tipo: "Região Nordeste",
     id: "mapa-nordeste",
     titulo: "Informalidade no Nordeste",
-    ref: "mapas/mapa_nordeste.html",
+    ref: "mapas/mapa_genero.html",
     // Imagem: Cultura/Pelourinho ou Sertão
     imagem: "https://brazilchannel.com.br/wp-content/uploads/2023/10/A-diversidade-cultural-dos-estados-do-Nordeste.jpg",
     detalhes: [

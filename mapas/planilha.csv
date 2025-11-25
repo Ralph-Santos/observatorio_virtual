@@ -1,0 +1,26 @@
+Região;Tipo de Recorte;Grupo;Taxa de Informalidade;Renda Média (Estimada);Observações
+Norte;Raça;População Branca;~48%;R$ 3.600+;
+Norte;Raça;População Preta/Parda;~61%;R$ 2.100;Uma das menores do país (Maior informalidade do Brasil)
+Norte;Gênero;Homens;~58,2%;R$ 2.780;
+Norte;Gênero;Mulheres;~56,5%;R$ 2.250;
+Norte;Orientação Sexual;População LGBT+;N/D;N/D;Dados oficiais inexistentes
+Nordeste;Raça;População Branca;~44%;R$ 3.200+;
+Nordeste;Raça;População Preta/Parda;~58%;R$ 1.980;A base da pirâmide nacional
+Nordeste;Gênero;Homens;~54,8%;R$ 2.390;
+Nordeste;Gênero;Mulheres;~52,1%;R$ 2.050;
+Nordeste;Orientação Sexual;População LGBT+;N/D;N/D;Dados oficiais inexistentes
+Centro-Oeste;Raça;População Branca;~29%;R$ 5.100+;Impulsionada por funcionalismo
+Centro-Oeste;Raça;População Preta/Parda;~42%;R$ 2.900;
+Centro-Oeste;Gênero;Homens;~38,5%;R$ 4.200;
+Centro-Oeste;Gênero;Mulheres;~36,2%;R$ 3.350;
+Centro-Oeste;Orientação Sexual;População LGBT+;N/D;N/D;Dados oficiais inexistentes
+Sudeste;Raça;População Branca;~26%;R$ 4.800+;
+Sudeste;Raça;População Preta/Parda;~38%;R$ 2.600;Gap salarial de quase 80%
+Sudeste;Gênero;Homens;~34,1%;R$ 4.300;
+Sudeste;Gênero;Mulheres;~32,2%;R$ 3.250;
+Sudeste;Orientação Sexual;População LGBT+;N/D;N/D;Dados oficiais inexistentes
+Sul;Raça;População Branca;~23%;R$ 4.300+;Menor informalidade do Brasil
+Sul;Raça;População Preta/Parda;~34%;R$ 2.700;
+Sul;Gênero;Homens;~27,8%;R$ 4.250;
+Sul;Gênero;Mulheres;~26,4%;R$ 3.300;
+Sul;Orientação Sexual;População LGBT+;N/D;N/D;Dados oficiais inexistentes
