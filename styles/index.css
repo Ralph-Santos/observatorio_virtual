@@ -220,7 +220,7 @@ button {
   padding: 10px;
   background: #8B4513;
   color: white;
-  position: relative;
+  position: static;
   bottom: 0;
   width: 100%;
 }

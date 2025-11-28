@@ -6,7 +6,7 @@ const planos = [
     
     ref: "mapas/mapa_desigualdade_mulher_negra.html", 
     // Imagem: Cerâmica/Cultura Indígena ou Amazônia
-    imagem: "https://s2.static.brasilescola.uol.com.br/be/2023/08/cultura-norte-ceramica-marajoara.jpg", 
+    imagem: "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/bd10d1222c3257233347b7ec760048ea.jpg", 
     detalhes: [
       "Trabalho informal no Brasil",
       "Desigualdade social e econômica",
@@ -19,7 +19,7 @@ const planos = [
     titulo: "Desigualdade de gênero no Brasil",
     ref: "mapas/mapa_genero.html",
     // Imagem: Cultura/Pelourinho ou Sertão
-    imagem: "https://brazilchannel.com.br/wp-content/uploads/2023/10/A-diversidade-cultural-dos-estados-do-Nordeste.jpg",
+    imagem: "https://hojesaopaulo.com.br/imagem/0/5823/o-quadro-quot-os-operarios-quot-de-tarsila-do-amaral-mostra-a-diversidade-do-povo-brasileiro.jpg",
     detalhes: [
       "Desigualdade salarial",
       "Média de pessoas em trabalho informal",
@@ -32,7 +32,7 @@ const planos = [
     titulo: "Desigualdade racial no Brasil",
     ref: "mapas/mapa_raca.html",
     // Imagem: Pantanal ou Brasília
-    imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Congresso_Nacional_-_Bras%C3%ADlia_-_Distrito_Federal_-_Brasil_02.jpg/800px-Congresso_Nacional_-_Bras%C3%ADlia_-_Distrito_Federal_-_Brasil_02.jpg",
+    imagem: "https://i0.wp.com/www.sabra.org.br/site/wp-content/uploads/2023/05/a-historia-da-cultura-brasileira-20171229162457.jpg-jpg.webp?w=612&ssl=1",
     detalhes: [
       "Desigualdade salarial",
       "Média de pessoas em trabalho informal",
